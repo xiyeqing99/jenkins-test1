@@ -7,6 +7,5 @@ public class Test {
         Logger logger = Logger.getLogger(Test.class);
         logger.info("111");
         System.out.println("222");
-
     }
 }
