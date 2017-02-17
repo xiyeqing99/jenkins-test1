@@ -94,8 +94,8 @@
                         </goals>
                         <configuration>
                             <tasks>
-                               <delete dir="C:/Users/Administrator/.jenkins/workspace/sendjar/jenkins-test-1.0-SNAPSHOT.jar"/>
-                                <copy todir="C:/Users/Administrator/.jenkins/workspace/sendjar/" >
+                               <delete dir="C:/Users/Administrator/.jenkins/workspace/git-maven/jenkins-test-1.0-SNAPSHOT.jar"/>
+                                <copy todir="C:/Users/Administrator/.jenkins/workspace/git-maven/" >
                                     <fileset dir="target/">
                                     <include name="jenkins-test-1.0-SNAPSHOT.jar"/>
                                     </fileset>
